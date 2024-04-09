@@ -1,0 +1,45 @@
+.navbarList {
+  display: flex;
+  gap: 24px;
+  font-size: 20px;
+}
+.timesIcon {
+  display: none;
+}
+.menuIcon {
+  display: none;
+}
+
+@media only screen and (max-width: 640px) {
+  .navbarList {
+    display: none;
+    transform: translateX(-100%);
+  }
+  .menuIcon {
+    display: block;
+  }
+}
+.verticalMenuBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #00dfc2;
+  color: #fff;
+  width: 100vw;
+  height: 70vh;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  transform: translateX(0%);
+}
+.menuIcon2 {
+  display: none;
+}
+.timesIcon2 {
+  display: block;
+}
+.icon li {
+  list-style: none;
+  letter-spacing: 1px;
+}

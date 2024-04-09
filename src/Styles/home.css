@@ -1,0 +1,79 @@
+* {
+  font-family: "Poppins-Regular", Helvetica;
+}
+
+.box1,
+.box3,
+.box4 {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: 10px;
+
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+}
+
+#d1,
+#d2,
+#d3,
+#d4,
+#d5,
+#d6 {
+  width: 50%;
+}
+
+.button {
+  margin: 3px;
+  background-color: #00dfc2;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.2s;
+}
+.button:hover {
+  background-color: black;
+  color: #00dfc2;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.box2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box2 > div {
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 20px;
+}
+.box5 {
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.box5 .para {
+  width: 70%;
+  text-align: center;
+}
+
+#d7 {
+  margin-top: 30px;
+  width: fit-content;
+}
+.box6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}

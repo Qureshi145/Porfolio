@@ -1,0 +1,57 @@
+.gradient {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(334deg, #6b97f7, #7525e2, #f7137e);
+  background-size: 180% 180%;
+  animation: gradient-animation 6s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.FormData {
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  gap: 20px;
+  height: 100%;
+}
+.FormData input,
+.FormData textarea {
+  background: transparent;
+  border: 1px solid white;
+  padding: 10px;
+  color: #fff;
+  font-size: 23px;
+}
+.FormData input:focus,
+.FormData textarea:focus {
+  outline: none;
+}
+.FormData input::placeholder,
+.FormData textarea::placeholder {
+  color: #fff;
+}
+.skills {
+  display: flex;
+  width: 100%;
+  gap: 12px;
+}
+.skills input {
+  width: 80%;
+}
+.skills button {
+  width: 20%;
+}
