@@ -6,6 +6,7 @@ import "./Potfolio.css";
 import folio from "../../assets/imgs/folio-1.jpg";
 import image from "../../assets/imgs/img-2.jpg";
 import { useNavigate, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Portfolio1 = () => {
   const pdfRef = useRef();
@@ -55,31 +56,17 @@ const Portfolio1 = () => {
 
   return (
     <>
-      <div className="PotMain" ref={pdfRef}>
+      <div className="PotMain">
         <nav className="navBar">
           <ul className="flex justify-center items-center gap-16">
-            <li>
-              <a href="#home" className="max-xsm:text-[13px] text-[29px]">
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="#About" className="max-xsm:text-[13px] text-[29px]">
-                About
-              </a>
-            </li>
-            <li>
-              <a href="#contact" className="max-xsm:text-[13px] text-[29px]">
-                Contact Us
-              </a>
-            </li>
-            <li>
-              <a href="#skill" className="max-xsm:text-[13px] text-[29px]">
-                Skills
-              </a>
-            </li>
+            <li className="max-xsm:text-[13px] text-[29px]">Home</li>
+            <li className="max-xsm:text-[13px] text-[29px]">About</li>
+            <li className="max-xsm:text-[13px] text-[29px]">Contact Us</li>
+            <li className="max-xsm:text-[13px] text-[29px]">Skills </li>
           </ul>
         </nav>
+      </div>
+      <div className="PotMain" ref={pdfRef}>
         <div className="header">
           <div className="userInfo" id="home">
             <h1 className="text-[54px]  max-xms:text-[20px]">

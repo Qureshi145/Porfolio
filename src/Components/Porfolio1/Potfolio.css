@@ -20,11 +20,12 @@
   padding: 10px;
   margin: 0px auto;
 }
-.PotMain ul li a {
+.PotMain ul li {
   color: #fff;
   font-weight: 400;
   letter-spacing: 2px;
   text-shadow: none;
+  cursor: pointer;
 }
 .userInfo {
   position: absolute;
